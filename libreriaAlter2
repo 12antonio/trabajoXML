@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xslt"?>
+<libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="validador.xsd">
+<lista_libros>
+
+    <libros idlibro="libro1()"> <!--Código de libro-->
+        <titulo>Lazarillo</titulo>
+        <autor>Fray Juan Ortega</autor>
+        <año>3/12/1536</año>
+        <precio>50</precio>
+        <disponible>false</disponible>
+    </libros>
+
+    <libros idlibro="libro2()"> <!--Código de libro-->
+        <titulo>El Quijote</titulo>
+        <autor>Cervantes</autor>
+        <año>20/5/1548</año>
+        <precio>2000</precio>
+        <disponible>false</disponible>
+
+    </libros>
+
+    <libros idlibro="libro3()"> <!--Código de libro-->
+        <titulo>Harry Potter</titulo>
+        <autor>JK.Rowlling</autor>
+        <año>22/6/2008</año>
+        <precio>20</precio>
+        <disponible>false</disponible>
+
+    </libros>
+</lista_libros>
+<proveedor>
+
+    <nombre>antonio</nombre>
+    <apellido></apellido>
+    <cif>B25895489V</cif>
+    <direccion>calle Tajo 9</direccion>
+    <telefono>+34 632598478</telefono>
+    <reparto>martes</reparto>
+    <horario>11:00</horario>
+
+
+</proveedor>
+
+</libreria>
